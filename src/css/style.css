@@ -47,23 +47,20 @@
 }
 
 /* CONTENT */
-#header-content {
-  width: 80%;
-  margin: 40px 10% 0 10%;
+.content {
   padding: 40px;
 }
 
-#form {
+/* #form {
   width: 80%;
   margin: 40px 10% 0 10%;
   padding: 40px;
-}
+} */
 
 #cardapio {
-  width: 80%;
-  margin: 40px 10% 0 10%;
-  padding: 40px;
-}
+  overflow-x: auto;
+  overflow: auto;
+} 
 
 #footer {
   width: 100%;

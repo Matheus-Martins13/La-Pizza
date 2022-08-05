@@ -90,12 +90,14 @@
               </p>
               <p>
                 A La Pizza foi fundada em 2022, fruto da necessidade nacional da liberdade de escolha dos clientes
-                para a montagem das suas pŕoprias pizzas. A sua fundadora, Pâmela, uma apreciadora nata de massas e
+                para a montagem das suas próprias pizzas. A sua fundadora, Pâmela, uma apreciadora nata de massas e
                 pizzas, conta que pesquisou muito até encontrar a solução perfeita para pizzas. Em breve, La Pizza
                 está disponível em todo o território nacional.
               </p>
               <br>
-              <button type="button" class="btn btn-warning">Leia mais <i class="bi bi-arrow-right-circle"></i></button>
+              <button type="button" class="btn btn-warning read-more">Leia mais <i
+                  class="bi bi-arrow-right-circle"></i></button>
+              <div class="more-content"></div>
             </div>
 
             <div class="col">
@@ -105,34 +107,171 @@
         </div>
 
       </header>
-      <!-- END SOBRE -->
     </section>
+    <!-- END SOBRE -->
 
-    <section id="contact" class="">
+    <!-- CARDÁPIO -->
+    <section id="cardapio" class="bg-light">
 
-      <form id="form">
-        <H2 class="display-2 text-danger"><a id="contato">Contato</a></H2>
+      <table class="table bg-light">
+        <h2 class="display-3 text-danger">Cardápio</h2>
+        <h3 class="display-4 text-warning">Sabores de Pizza</h3>
+        <br>
+        <thead class="bg-danger">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Média</th>
+            <th scope="col">Grande</th>
+            <th scope="col">Famlília</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Mussarela</th>
+            <td>R$35,00</td>
+            <td>R$42,00</td>
+            <td>R$52,00</td>
+          </tr>
+          <tr>
+            <th scope="row">Calabresa</th>
+            <td>R$35,00</td>
+            <td>R$35,00</td>
+            <td>R$52,00</td>
+          </tr>
+          <tr>
+            <th scope="row">Portuguesa</th>
+            <td>R$35,00</td>
+            <td>R$52,00</td>
+            <td>R$52,00</td>
+          </tr>
+          <tr>
+            <th scope="row">Frango c/ catupiry</th>
+            <td>R$35,00</td>
+            <td>R$52,00</td>
+            <td>R$52,00</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row" colspan="2">Personalizada</th>
+            <td>A partir de:</td>
+            <td>R$20,00</td>
+          </tr>
+        </tfoot>
+      </table>
+      <br>
+
+      <table class="table bg-light">
+        <h3 class="display-4 text-warning">Bebidas</h3>
+        <br>
+        <thead class="bg-danger">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Lata</th>
+            <th scope="col">2L</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Antartica</th>
+            <td>R$4,00</td>
+            <td>R$6,50</td>
+          </tr>
+          <tr>
+            <th scope="row">Coca-cola</th>
+            <td>R$5,00</td>
+            <td>R$8,00</td>
+          </tr>
+          <tr>
+            <th scope="row">Kuat</th>
+            <td>R$4,00</td>
+            <td>R$6,50</td>
+          </tr>
+          <tr>
+            <th scope="row">Guaravita</th>
+            <td>R$2,00</td>
+            <td>#</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <!-- END CARDAPIO -->
+
+    <!-- CONTACT -->
+    <section id="contact">
+
+      <form id="form" class="bg-light">
+        <h2 class="display-3 text-danger"><a id="contato">Contato</a></h2>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Seu e-mail</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ex.: email@email.com">
           <div id="emailHelp" class="form-text">Nós não compartilhamos seu e-mail com ninguém.</div>
           <br>
           <div class="mb-3">
             <label for="message" class="form-label">Mensagem</label>
-            <textarea class="form-control" id="message" rows="3"></textarea>
+            <textarea class="form-control" id="message" rows="3" placeholder="Digite a sua mensagem..."></textarea>
           </div>
         </div>
 
-        <button type="submit" class="btn btn-warning">Enviar</button>
+        <button type="submit" class="btn btn-warning send">Enviar</button>
+        <br>
+        <br>
+        <div class="message"></div>
+        <br>
       </form>
     </section>
+    <!-- END CONTACT -->
+    <!-- END CONTENT -->
 
-    <footer>
-      <nav>
-
-      </nav>
+    <!-- FOOTER -->
+    <footer id="footer" class="bg-dark p-3 text-light">
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            
+            <strong>Contato:</strong>
+          </div>
+          <div class="col">
+            <a href="index.html#sobre" class="link-light">Sobre a La Pizza</a>
+          </div>
+          <div class="col">
+            <strong>E-mails: </strong>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col">
+            <i class="bi bi-whatsapp"></i> (21)9921-4167
+          </div>
+          <div class="col">
+            <a href="index.html#cardapio" class="link-light">Cardápio</a>
+          </div>
+          <div class="col">
+            <i class="bi bi-send"></i> contato@lapizza.com
+          </div>
+        </div>
+        <div class="row align-items-end">
+          <div class="col">
+            <i class="bi bi-telephone"></i> (21)98969-6070
+          </div>
+          <div class="col">
+            <a href="index.html#contato" class="link-light">Contato</a>
+          </div>
+          <div class="col">
+            <i class="bi bi-send"></i> suporte@lapizza.com
+          </div>
+        </div>
+        <br>
+        <div class="row align-items-center">
+          <div class="col">
+            <p>Copyright © 2022 La Pizza - Todos os direitos reservados</p>
+            <i class="bi bi-google"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            
+          </div>
+        </div>
+      </div>
     </footer>
-
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

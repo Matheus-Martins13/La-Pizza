@@ -1,31 +1,72 @@
+.link-warning, .link-light {
+  text-decoration: none;
+}
+
 .link-menu:hover {
   background-color: rgba(0, 0, 0, 0.3);
-}
-
-
-/* CONTENT */
-#header-content {
-  background-color: rgb(255, 255, 255);
-  width: 80%;
-  margin: 40px 10% 0 10%;
-  padding: 40px;
-}
-
-#form {
-  background-color: rgb(255, 255, 255);
-  width: 80%;
-  margin: 40px 10% 0 10%;
-  padding: 40px;
 }
 
 .logo {
   font-family: 'Chonburi', cursive;
 }
 
-.display-2 {
+.display-1, .display-2, .display-3, .display-4 {
   font-family: 'Chonburi', cursive;
 }
 
-.link-warning {
-  text-decoration: none;
+.display-3 {
+  font-size: 60px;
 }
+
+.display-4 {
+  font-size: 40px;
+}
+
+.success {
+  background-color: rgba(13, 255, 0, 0.355);
+}
+
+.bi-telephone {
+  color: green;
+}
+
+.bi-whatsapp {
+  color: green;
+}
+
+.bi-google {
+  color: yellow;
+}
+
+.bi-facebook {
+  color: rgb(6, 141, 237);
+}
+
+.bi-instagram {
+  color: rgb(143, 0, 245)
+}
+
+/* CONTENT */
+#header-content {
+  width: 80%;
+  margin: 40px 10% 0 10%;
+  padding: 40px;
+}
+
+#form {
+  width: 80%;
+  margin: 40px 10% 0 10%;
+  padding: 40px;
+}
+
+#cardapio {
+  width: 80%;
+  margin: 40px 10% 0 10%;
+  padding: 40px;
+}
+
+#footer {
+  width: 100%;
+  margin-top: 40px;
+}
+

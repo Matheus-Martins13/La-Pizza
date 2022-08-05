@@ -1,0 +1,31 @@
+.link-menu:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+/* CONTENT */
+#header-content {
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  margin: 40px 10% 0 10%;
+  padding: 40px;
+}
+
+#form {
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  margin: 40px 10% 0 10%;
+  padding: 40px;
+}
+
+.logo {
+  font-family: 'Chonburi', cursive;
+}
+
+.display-2 {
+  font-family: 'Chonburi', cursive;
+}
+
+.link-warning {
+  text-decoration: none;
+}

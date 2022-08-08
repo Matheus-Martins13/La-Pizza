@@ -50,13 +50,29 @@ html {
   color: rgb(143, 0, 245)
 }
 
+.img-carousel {
+  width: 50vw;
+  height: 50vh;
+}
+
 /* CONTENT */
 .content {
   padding: 40px;
   height: 100vh;
 }
 
+#about {
+  height: 50vh;
+}
+
+#promocoes {
+  margin-top: 100vh;
+  height: 100vh;
+}
+
 #cardapio {
+  box-sizing: border-box;
+  margin-top: 200px;
   overflow: auto;
 } 
 

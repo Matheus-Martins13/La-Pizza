@@ -8,7 +8,6 @@ readMore.addEventListener('click', (e) => {
   readMore.delete;
 });
 
-
 send.addEventListener('click', (e) => {
   e.preventDefault();
   message.innerHTML = 'Mensagem enviada com sucesso!';

@@ -49,26 +49,26 @@ html {
 .bi-instagram {
   color: rgb(143, 0, 245)
 }
-
+/* 
 .img-carousel {
-  width: 50vw;
-  height: 50vh;
-}
+  width: 800px;
+  height: 400px;
+} */
 
 /* CONTENT */
 .content {
   padding: 40px;
-  height: 100vh;
 }
 
-#about {
+/* #about {
   height: 50vh;
 }
-
-#promocoes {
+ */
+/* #promocoes {
   margin-top: 100vh;
   height: 100vh;
 }
+ */
 
 #cardapio {
   box-sizing: border-box;

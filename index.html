@@ -17,8 +17,6 @@
 
   <!-- MY CSS -->
   <link rel="stylesheet" href="./src/css/style.css">
-  <!-- FOOTER CSS -->
-  <link rel="stylesheet" href="./src/css/footer.css">
 
   <!-- Fonte do Google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,7 +31,7 @@
 <body>
   <!-- NAVBAR -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark text-bg-warning ">
+    <nav class="navbar navbar-expand-lg navbar-dark text-bg-warning" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand logo text-danger" href="#">
           <img src="./src/img/logo.png" alt="la pizza" width="40" height="40">
@@ -71,12 +69,13 @@
         </div>
       </div>
     </nav>
+  </header>
     <!-- END NAVBAR -->
 
     <!-- BANNER -->
-    <section>
+    <div id="banner">
       <img src="./src/img/image-page-pt.png" class="img-fluid" alt="La Pizza">
-    </section>
+    </div>
     <!-- END BANNER -->
 
     <!-- CONTENT -->
@@ -102,19 +101,19 @@
           nós somos La Pizza, o lugar onde todo sabor é o sabor da sua vida.
         </p>
 
-          <p class="fw-bold">Os nossos ideais são esses:</p>
-          <ol>
-            <li>Levar pizza de qualidade para a maior quantidade de pessoas que conseguirmos;</li>
-            <li>Oferecer produto de qualidade por um preço acessível;</li>
-            <li>Dar liberdade de escolha para os consumidores;</li>
-          </ol>
-          <p class="fw-bold">Os nossos objetivos são esses:</p>
-          <ol>
-            <li>Ser a pizzaria número 1 do continente americano;</li>
-            <li>Aprimorar a culinária brasileira;</li>
-            <li>Distribuir pizzas para o mundo.</li>
-          </ol>
-      <p>La Pizza: A pizzaria.</p>
+        <p class="fw-bold">Os nossos ideais são esses:</p>
+        <ol>
+          <li>Levar pizza de qualidade para a maior quantidade de pessoas que conseguirmos;</li>
+          <li>Oferecer produto de qualidade por um preço acessível;</li>
+          <li>Dar liberdade de escolha para os consumidores;</li>
+        </ol>
+        <p class="fw-bold">Os nossos objetivos são esses:</p>
+        <ol>
+          <li>Ser a pizzaria número 1 do continente americano;</li>
+          <li>Aprimorar a culinária brasileira;</li>
+          <li>Distribuir pizzas para o mundo.</li>
+        </ol>
+        <p>La Pizza: A pizzaria.</p>
 
       </header>
     </section>
@@ -148,7 +147,6 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      </div>
 
       <div>
         <h3 class="display4 mt-4 text-warning">Conheça nossas promoções: </h3>
@@ -163,11 +161,10 @@
 
     <!-- CARDÁPIO -->
     <section id="cardapio" class="content mt-5 container">
-
+      <h2 class="display-3 text-danger">Cardápio</h2>
+      <br>
+      <h3 class="display-4 text-warning">Sabores de Pizza</h3>
       <table class="table bg-light">
-        <h2 class="display-3 text-danger">Cardápio</h2>
-        <h3 class="display-4 text-warning">Sabores de Pizza</h3>
-        <br>
         <thead class="bg-danger">
           <tr>
             <th scope="col">#</th>
@@ -211,10 +208,9 @@
         </tfoot>
       </table>
       <br>
-
+      <br>
+      <h3 class="display-4 text-warning">Bebidas</h3>
       <table class="table bg-light">
-        <h3 class="display-4 text-warning">Bebidas</h3>
-        <br>
         <thead class="bg-danger">
           <tr>
             <th scope="col">#</th>
@@ -256,12 +252,13 @@
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Seu e-mail</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-            placeholder="Ex.: email@email.com">
+            placeholder="Ex.: email@email.com" required>
           <div id="emailHelp" class="form-text">Nós não compartilhamos seu e-mail com ninguém.</div>
           <br>
           <div class="mb-3">
             <label for="message" class="form-label">Mensagem</label>
-            <textarea class="form-control" id="message" rows="3" placeholder="Digite a sua mensagem..."></textarea>
+            <textarea class="form-control" id="message" rows="3" placeholder="Digite a sua mensagem..."
+              required></textarea>
           </div>
         </div>
 

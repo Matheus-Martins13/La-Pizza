@@ -68,3 +68,12 @@ html {
   margin-top: 40px;
 }
 
+.cookies {
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 3;
+  bottom: 0;
+  padding: 10px;
+}

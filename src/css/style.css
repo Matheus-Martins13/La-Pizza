@@ -2,15 +2,20 @@
 html {
   scroll-behavior: smooth;
 }
+
 /* Fim seletores gerais */
 
 /* Classes */
 /* Classes bootstrap */
-.link-warning, .link-light {
+.link-warning,
+.link-light {
   text-decoration: none;
 }
 
-.display-1, .display-2, .display-3, .display-4 {
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
   font-family: 'Chonburi', cursive;
 }
 
@@ -37,6 +42,7 @@ html {
 .bi-instagram {
   color: rgb(143, 0, 245)
 }
+
 /* Fim classes bootstrap */
 
 /* Classes prórpias */
@@ -61,7 +67,7 @@ html {
   box-sizing: border-box;
   margin-top: 200px;
   overflow: auto;
-} 
+}
 
 #footer {
   width: 100%;
@@ -76,4 +82,10 @@ html {
   z-index: 3;
   bottom: 0;
   padding: 10px;
+}
+
+@media (max-width: 991px) {
+  .btn-cookies {
+    width: 100%;
+  }
 }
